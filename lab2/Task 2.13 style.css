@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.Main{
+    background-color: aqua;
+    margin: 8px;
+    border: forestgreen solid 2px;
+}
+.ListRectangle{
+    width: 25%;
+    height: 80px;
+    background-color: bisque;
+    vertical-align: top;
+    float: left;
+}
+.ListRectangle ul{
+    padding-top: 10px;
+}
+
+.TextRectangle{
+    background-color: darkgray;
+    width: 75%;
+    margin-left: 25%;
+}
+.TextRectangle img{
+    float: right;
+    width: 50%;
+}

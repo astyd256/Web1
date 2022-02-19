@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+}
+.main{
+    border: 4px solid blue;
+    width: 488px;
+    height: 488px;
+    padding: 20px;
+}
+
+.calc-grid{
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: minmax(80px, auto) repeat(4, 80px);
+    grid-gap: 8px;
+}
+.output{
+    width: 432px;
+    height: 80px;
+    border: 1px solid gray;
+    font-size: 3rem;
+    text-align: end;
+    padding: 10px;
+    overflow:hidden;
+}
+
+.calc-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+}
+.calc-grid > button:hover {
+background-color: #a9a9a9;
+}
+#span-two-hor {
+    grid-column: span 2;
+}
+#span-two-vert {
+    grid-row: span 2;
+}
+#previous-operand{
+    color: #a9a9a9;
+}

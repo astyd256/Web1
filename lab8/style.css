@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    text-decoration: none;
+}
+button{
+    display: inline-block; 
+}
+button:hover{
+    cursor: pointer;
+}
+#save_btn{
+    display: block;
+}

@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+div{
+    margin: 0 auto;
+    width: 500px;
+    border: 20px white solid;
+}
+.BlueRectangle{
+    width: 380px;
+    padding: 50px;
+    border: 10px blue solid;    
+}

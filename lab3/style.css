@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+html, body{
+    height: 96%
+}
+
+header{
+    background-color: green;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    padding: 8px;
+}
+.main{
+    margin: 0 auto;
+    height: 100%;
+    max-width: 812px;
+    min-width: 300px;
+    position: relative;
+}
+.red_filler{
+    background-color: red;
+    width: 220px;
+    height: 100%;
+    position: absolute;
+    float: left;
+}
+.menu_box{
+    height: 300px;
+}
+.menu{
+    margin: 36px
+}
+.menu li{
+    margin: 10px;
+    width: 123px;
+    list-style: none;
+}
+.menu li a{
+    color: white;
+}
+
+.menu li:hover{
+    background-color: green;
+}
+
+.text_box{
+    margin-left: 220px;
+    padding: 30px;
+    text-align: justify;
+}
+.text_box span{
+    color: red;
+    font-size: 32px;
+    height:100%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 4px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+@media (max-width:700px){
+footer{
+    clear: both;
+    position: static;
+}
+.main{
+    height: auto;
+}
+}
+
+::selection{
+    background-color: green;
+    color: white;
+}
+

@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+#curtains{
+    background: url("1.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 6;
+}
+
+@keyframes slightslide {
+    from{
+        height: 100%;
+    }
+    to {
+        height: 95%;
+    }
+    
+}
+@keyframes slightslideback {
+    from {
+        height: 95%;
+    }
+    to{
+        height: 100%;
+    }
+}
+
+@keyframes slideback {
+    from{
+        height: 95%;
+    }
+    to{
+        height: 0%;
+    }
+}
+
+#curtains:hover{
+    cursor: pointer;
+    animation: 0.2s ease-in-out 0s 1 slightslide forwards;
+}
+#curtains:not(:hover){
+    animation: 0.2s ease-in-out 0s 1 slightslideback forwards;
+}
+#lamp{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+#lamp-body{
+    position: relative;
+    width: 300px;
+}
+#lamp-head{
+    position: relative;
+    width: 300px;
+    top: -1550px;  
+    z-index: 5;   
+}
+#lamp-switch{
+    position: relative;
+    width: 300px;   
+    top: -320px;
+}
+#triangle{
+    width: 20px;
+    border: 350px transparent solid; 
+    border-bottom: 600px solid yellow;
+    position: relative;
+    top: -910px;
+    left: -205px;    
+    opacity: 0;
+    pointer-events: none;
+    z-index: 4;
+}
+
+@keyframes LightOn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.5;
+    }
+}
+
+@keyframes LightOff {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes SwitchOn {
+    from {
+        top: -320px;
+    }
+    to {
+        top: -300px;;
+    }
+}
+@keyframes SwitchOff {
+    from {
+        height: -300px;
+    }
+    to {
+        height: -320px;
+    }
+}
+
+#stage {
+    width: 700px;
+    height: 300px;
+    margin: 0 auto; 
+    margin-top: 100px;
+    opacity: 0;
+}
+#wizard {
+    width: 300px;
+    margin-left: 100px;
+}
+#hat {
+    width: 220px;
+    height: 150px;
+    z-index: 3;
+    position: relative;
+}
+#rabbit {
+    position: relative;
+    top: -30px;
+    left: -150px;
+    width: 60px;
+    z-index: 2;
+}
+#pigeon {
+    position: relative;
+    top: -230px;
+    left: 465px;
+    width: 100px;
+    z-index: 2;
+}
+
+@keyframes RabbitOut {
+    from{
+        top: -30px;        
+    }
+    to {
+        top: -150px;
+    }
+}
+
+@keyframes RabbitIn {
+    from{
+        top: -150px;
+    }
+    to{
+        top: -30px;
+    }
+}
+@keyframes PigeonOut {
+    from{
+        top: -110px;
+    }
+    to{
+        top: -230px;
+    }
+}
+@keyframes PigeonIn {
+    from{
+        top: -230px;
+    }
+    to{
+        top: -110px;
+    }
+}
+@keyframes StageIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes StageOut {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}

@@ -1,0 +1,12 @@
+
+.Main{
+    border:forestgreen solid 2px;
+    background-color: aqua;
+    height: 265px;
+}
+.Main div{
+   margin-right: 300px;
+}
+.Main img{
+    float: right;
+}

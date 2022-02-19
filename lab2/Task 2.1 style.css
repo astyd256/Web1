@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #EAEAEA;
+    font-size: 32px;
+    font-weight: bold;
+    height: 75px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.LCHeader{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.RCHeader{
+    font-weight: bold;
+    float: left;
+    margin-left: 10px;
+    margin-right: 6px;
+}
+.RedText{
+    color: red;
+    font-style: italic;
+}
+.LeftColumn{
+    background-color: #C8FC98;
+    float: left;
+    width: 200px;
+    line-height: 150%;
+
+}
+.LeftColumn div{
+    margin-left: 10px;
+    margin-right: 2px;
+}
+.RightColumn{
+    margin-left: 200px;
+    line-height: 150%;
+}
+.RightColumn div{
+    margin-left: 10px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    clear: both;
+    height: 30px;
+    padding-top: 6px;
+}
+footer a{
+    color: #FFFF80;
+}

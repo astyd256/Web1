@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+.Main{
+    background-color: aqua;
+    margin: 8px;
+    border: forestgreen solid 2px;
+}
+.ListRectangle{
+    width: 25%;
+    height: 80px;
+    background-color: bisque;
+    display: inline-block;   
+    vertical-align: top;
+}
+.ListRectangle ul{
+    padding-top: 10px;
+}
+
+.TextRectangle{
+    background-color: darkgray;
+    display: inline-block;
+    width: 74.5%;
+}

@@ -1,0 +1,16 @@
+*{
+    margin:0;
+}
+.FloatBox{
+    display:inline-block;
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    margin: 18px;
+}
+.ClearBox{
+    background-color: bisque;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}

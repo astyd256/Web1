@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+.Main{
+    background-color: aqua;
+    margin: 8px;
+    border: forestgreen solid 2px;
+}
+.ListRectangle{
+    display: inline-block;
+    width: 25%;
+    height: 80px;
+    background-color: bisque;
+    vertical-align: top;
+}
+.ListRectangle ul{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.TextRectangle{
+    background-color: darkgray;
+    width: 75%;
+    display: inline-block;
+}
+.TextRectangle img{
+    float: right;
+    width: 50%;
+}
+@media only screen and (orientation: portrait){
+    .ListRectangle{
+        width: 100%;
+        height: 26px;
+        margin: 26px 0px 26px 0px;
+    }
+    .TextRectangle{
+        width: 100%;
+    }
+    .ListRectangle ul li{
+        display: inline-block;
+    }
+    .ListRectangle ul{
+        padding-top: 5px;
+    }
+    
+}

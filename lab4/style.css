@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    text-decoration: none;
+    font-size: 15px;
+}
+html{
+    background-color: #e1e5eb;
+    background-color: #edeef0;
+}
+::selection{
+    background-color: #e1e5eb;
+    color: green;
+}
+header{
+    background-color: #507299;
+    height: 35px;
+    padding-top: 10px;
+}
+header img{
+    margin-left: 15%;
+}
+.main{
+    margin: 0 auto;
+    text-align: center;
+
+}
+.main div{
+    display: inline-block;
+    vertical-align: top;
+}
+.menu_box{
+width: 190px;
+margin-top: 14px;
+margin-right: 10px;
+
+}
+.menu li{
+    color: #2e5473;
+    list-style: none;
+    text-align:left;
+    padding:10px;
+}
+.menu li:hover{
+    background-color: #e1e5eb;
+    border-radius:5px; 
+}
+.feed{
+    position: static;
+    width: 460px;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+
+.news_box{
+    text-align: justify;
+    background-color: white;
+    border: 2px solid #d0d0d0;
+    border-radius: 10px;
+    min-height: 315.8px;
+    width: 413.8px;
+    padding: 22px; 
+    padding-left: 21px;
+    padding-bottom: 19px;
+    margin-bottom: 18px;
+}
+.news_box img{
+    width: 100%;
+}
+
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: #d0d0d0;
+    margin: 12px 0;
+}
+.some_header{
+    font-weight: bold;
+    vertical-align: middle;
+
+}
+.header_line{
+    width:458px;
+    height: 3px;
+    background-color: #d0d0d0;
+    margin-top: 10px;
+    margin-left: -21px;
+}
+.like{
+   color: #2e5473;
+}
+.comment{
+    float:right;
+    color: #2e5473;
+}
+.info_box{
+    text-align:left;
+    width: 160px;
+    vertical-align: top;
+    position:fixed;
+    margin-left: 190px;
+    margin-top: 15px;
+}
+.info_container{
+    padding: 12px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #d0d0d0;
+    border-radius: 10px;
+
+}
+.info{
+    background-color: #edeef0;
+    border-radius: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+    color:gray;
+    background-color: white;
+    height:18px;
+    vertical-align: middle;
+    padding: 6px;
+}
+@media (max-width: 690px) {
+    .menu_box{
+        width:100%;
+        height: 75px;
+    }
+    .menu{
+        width: 100%; 
+        text-align:center;
+    }
+    .menu li{
+        display:inline-block;
+    }
+}

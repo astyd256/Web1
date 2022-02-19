@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+div{
+    margin: 0 auto;
+    width: 600px;
+    background-color: blue;
+    border: 7px white solid;
+}
+div p{
+    color: white;
+}
